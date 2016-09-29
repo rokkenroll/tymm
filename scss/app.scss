@@ -1,0 +1,32 @@
+// Main colours
+$light:						#F4F4F4 !default;
+$faint:						#E6E6E6 !default;
+
+
+$font-weight-thin:			300;
+$font-weight-thick:			700;
+
+// Social media
+$facebook:					#3A579D !default;
+$twitter:					#00ACED !default;
+$instagram:					#3f729b !default;
+$linkedin:					#0077b5 !default;
+
+// Layout size for backend
+$width-backend:				800px !default;
+
+$font-size-tiny:			8pt;
+$font-size-small:			12pt;
+$font-size-medium:			16pt;
+$font-size-large:			20pt;
+$font-size-extra-large:		26pt;
+$font-size-huge:			34pt;
+
+$width-regular: 65%;
+$width-mobile: 95%;
+
+$footer-height: 220px;
+
+@font-face { font-family: "Open Sans", sans-serif; }
+
+@import "_flexbox.scss";

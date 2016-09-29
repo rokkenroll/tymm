@@ -1,0 +1,13 @@
+<sf-dropdown-menu ng-if="sfAboutController.owner" ng-show="!sfAboutController.editing" elements="sfAboutController.menuElements"></sf-dropdown-menu>
+
+<h1 class="title">ABOUT</h1>
+
+<md-divider direction="horizontal"></md-divider>
+
+<!-- <img class="about-image no-image" ng-src="/assets/img/noimageholder.png" ui-sref="profile-about" alt="Add an Image"> -->
+<!-- <img class="about-image" ng-src="{{ sfProfileController.cover }}" ng-if="sfProfileController.cover" alt="{{ sfProjectController.title }}"> -->
+<!--IF THESE ARE RE-ENABLED, PUT IN DIVS (FIREFOX FIX)-->
+
+<textarea msd-elastic class="editable" placeholder="Nothing yet to display" ng-class="{ readonly: !sfAboutController.editing }" ng-model="sfAboutController.text" ng-readonly="!sfAboutController.editing"></textarea>
+
+<sf-bottom-menu ng-show="sfAboutController.editing" elements="sfAboutController.menuElements"></sf-bottom-menu>
